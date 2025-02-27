@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, #090928, #090925, #090a22, #090a1e, #090a1b, #08091a, #080919, #070818, #06071a, #04051c, #03041d, #01031f);
+  color: #000;
+  font-family: sans-serif;
+}
+
+.register_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register_container div {
+  border-radius: 10px;
+  background: #fff;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.register_container div h2 {
+  text-align: center;
+}
+.register_container div label {
+  color: #000;
+  font-size: 1rem;
+}
+.register_container div input {
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 2px solid #000;
+}
+.register_container div a {
+  margin-top: 5px;
+  color: #000;
+}
+
+#Register {
+  position: relative;
+  background: linear-gradient(to right, #090928, #090925, #090a22, #090a1e, #090a1b, #08091a, #080919, #070818, #06071a, #04051c, #03041d, #01031f);
+  background-size: 0% 100%;
+  background-repeat: no-repeat;
+  color: black;
+  border: 2px solid #111827;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  font-size: 17px;
+  cursor: pointer;
+  transition: background-size 0.5s ease, color 0.5s ease;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+#Register:hover {
+  background-size: 100% 100%;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
