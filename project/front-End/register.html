@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financy Counter:Register</title>
+    <title>Financy M.I</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script defer src="../back-End/register.js"></script>
 </head>
+
 <body>
-    <form action="">
-        
-    </form>
+    <h1>User Management</h1>
+    <div class="container">
+        <h2>Register</h2>
+        <input type="text" id="name" placeholder="Username">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button id="btnRegister">Register</button>
+    </div>
+    <div class="container">
+        <h2>Login</h2>
+        <input type="text" id="login-name" placeholder="Username">
+        <input type="password" id="login-password" placeholder="Password">
+        <button id="btnLogin">Login</button>
+        <button id="btnLogout">Logout</button>
+    </div>
+    <div class="container">
+        <h2>Update Password</h2>
+        <input type="password" id="new-password" placeholder="New Password">
+        <button id="btnUpdatePassword">Update Password</button>
+    </div>
+    <script src="../back-End/register.js"></script>
+    <script src="../back-End/login.js"></script>
 </body>
+
 </html>
